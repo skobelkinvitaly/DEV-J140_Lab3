@@ -1,0 +1,22 @@
+.button {
+-fx-text-fill: blue;
+-fx-font-weight: bold;
+-fx-font-family: serif;
+-fx-font-style: italic;
+-fx-font-size:20;
+}
+.button: focused{
+-fx-background-color: aqua;
+}
+.button: hover{
+-fx-background-color: yellow;
+}
+.button: pressed{
+-fx-background-color: green;
+}
+.label {
+-fx-text-fill: red;
+-fx-font-weight: bold;
+-fx-font-family: serif;
+-fx-font-style: italic;
+}
